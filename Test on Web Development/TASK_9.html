@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Section</title>
+    <style>
+        body{
+            margin-top: 30px;
+            margin-bottom: 15px;
+            text-align: center;
+            background-color: violet;
+        }
+        .h1{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .section{
+            display: flex;
+            margin-top: 150px;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 50px;
+        }
+        .price{
+            border: 1px solid pink;
+            width: 230px;
+            border-radius: 12px;
+            background-color:  pink;
+            box-shadow: 0 2px 4px black;
+            text-align: center;
+            transition: 1s;
+        }
+        .price:hover{
+            transform: scale(1.15);
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Pricing Section</h1>
+    <div class="section">
+        <div class="price">
+            <h2>Low Price</h2>
+        </div>
+        <div class="price">
+            <h2>Medium Price</h2>
+        </div>
+        <div class="price">
+            <h2>High Price</h2>
+        </div>
+    </div>
+</body>
+</html>

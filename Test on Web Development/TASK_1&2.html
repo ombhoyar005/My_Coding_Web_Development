@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form (Heading)</title>
+<style>
+    * {
+        margin-top: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+    body{
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        background-color:#2575fc;
+       
+    }
+    .header{
+        text-align: left;
+        padding: 5px;
+        margin-top: 10px;
+        align-items: center;
+        
+        flex-direction: column;
+    }
+
+    .Login{
+        width: 400px;
+        height: 400px;
+        text-align: center;
+        box-shadow: 0 0 10px;
+        padding: 20px; 
+        align-items: center;
+        background: white;
+        margin-top: 150px;
+    }
+    .input{
+        text-align: left;
+        padding: 30px;
+        margin-bottom: 0;
+        
+    } 
+    .input label{
+        font-size: 14px;
+        margin-bottom: 0;
+    }      
+    .input input{
+        width: 100%;
+        padding: 5px;
+        border: 3px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+    }
+    .btn{
+        width: 50%;
+        color: white;
+        padding: 10px;
+        background:  rgb(6, 134, 246);
+    }
+</style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>OM BHOYAR</h1>
+        <p> Solve all the questions as per given instructions</p>
+    </div>
+    
+    <div class="Login">
+        <h2>Login</h2>
+        <br>
+        <form >
+            <div class="input">    
+                <label>Name:</label>
+                <input placeholder="Enter your Name">
+                <br>
+            </div>
+            <div class="input">    
+                <label>Email:</label>
+                <input type="email" placeholder="Enter your email">
+                <br>
+            </div>
+            <button type="submit" class="btn">Login</button>
+        </form>
+    </div>
+</body>
+</html>

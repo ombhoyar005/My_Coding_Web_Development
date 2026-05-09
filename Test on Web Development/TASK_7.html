@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Gallery</title>
+    <style>
+        body{
+            
+            margin-top: 30px;
+            margin-bottom: 30px;
+            background-color: rgb(214, 173, 137);
+
+        }
+        .head{
+            font-family: cursive;
+            color: rgb(112, 250, 204);
+            text-align: center;   
+        }
+        .gallery{
+            display: grid;
+            flex-direction: row;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            text-align: center;
+            justify-content:center;
+
+        }
+        .gallery img{
+            height: 225px;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: 0.5s;
+        }
+        .gallery img:hover{
+            transform: scale(1.10) ;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="head">Responsive Gallery</h1>
+    </div>
+    <div class="gallery">
+        <img src="https://images.pexels.com/photos/30462129/pexels-photo-30462129.jpeg">
+        <img src="https://images.pexels.com/photos/29284210/pexels-photo-29284210.jpeg">
+        <img src="https://images.pexels.com/photos/1910236/pexels-photo-1910236.jpeg">
+        <img src="https://images.pexels.com/photos/3752194/pexels-photo-3752194.jpeg">
+        <img src="https://images.pexels.com/photos/32488027/pexels-photo-32488027.jpeg">
+        <img src="https://images.pexels.com/photos/28844179/pexels-photo-28844179.jpeg">
+        <img src="https://images.pexels.com/photos/30822021/pexels-photo-30822021.jpeg">
+        <img src="https://images.pexels.com/photos/34723613/pexels-photo-34723613.jpeg">
+    </div>
+</body>
+</html>
