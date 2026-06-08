@@ -1,0 +1,96 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(252, 186, 208);
+    margin: 0;
+    padding: 0;
+}
+#store{
+    display: flex;
+    width: 100vw;
+    background-color: black;
+    height: 75px;
+    color: aliceblue;
+    gap: 750px;
+}
+.menu{
+    padding-top: 25px;
+    text-align: center;
+    padding-left: 8px;
+    width: 325px;
+}
+.menu a{
+    text-decoration: none;
+    margin-left: 35px;
+    color: aliceblue;
+}
+.product{
+    display: flex;
+    gap: 200px;
+    margin-top: 10px;
+}
+.name{
+    text-align: center;
+    margin-left: 20vw;
+    height: 225px;
+    margin-top: 10px;
+    padding-top: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 500px;
+}
+.name button{
+    width: 100px;
+    height: 30px;
+    background-color: #007bff;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.image img{
+    width: 275px;
+    max-width: 100%;
+    border-radius: 50%;
+    margin-top: 10px;
+    height: 275px;
+    object-fit: cover;
+}
+.features{
+    display: flex;
+    text-align: center;
+    margin-left: 15%;
+    border-radius: 10px;
+    gap: 20px;
+   }   
+.feature1{   
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+}
+.feature2{
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    width: 100vw;
+    height: 88px;
+}
+.refer{
+    margin-right: 200px;
+    padding-top: 5px;
+}
+.refer a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 200px;
+
+}
+.footer h2{
+    color: aliceblue;
+}
